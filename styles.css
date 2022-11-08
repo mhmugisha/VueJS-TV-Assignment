@@ -1,0 +1,49 @@
+.tv-frame {
+    width: 800px;
+    height: 400px;
+    background: black;
+    margin: 10% auto;
+    position: relative;
+    
+}
+
+.tv-show {
+    width: 99%;
+    height: 330px;
+    background: gray;
+    position: absolute;
+    top: 1%;
+    left: 0.5%;
+    right: 0.5%;
+}
+
+.tv-off {
+    width: 98%;
+    height: 330px;
+    background: rgb(48, 47, 47);
+    position: absolute;
+    top: 0.5%;
+    left: 1%;
+    right: 1%;
+    bottom: -0.5%;
+}
+
+.tv-power {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.tv-previous, .tv-next {
+    position: absolute;
+    bottom: 5%;
+    left: 45%
+}
+
+.tv-next {
+    left: 50%;
+}
